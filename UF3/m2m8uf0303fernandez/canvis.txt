@@ -1,0 +1,17 @@
+
+
+1r canvi
+../imatges/
+../img/
+
+
+2n canvi
+
+..//iimatges/
+../img/
+
+
+3r canvi 
+
+file:///125/Users/agm2/Sites/m2c5w04/img/
+../img
