@@ -1,0 +1,84 @@
+body {
+    transition: background-color .5s;
+		margin: 0;
+		background-color: pink;
+
+}
+
+/* NAV CSS */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}s
+}
+
+
+/* HEADER CSS  CUANDO PONGO COLOR AL HEADER NO SE CAMBIA LA OPACIDAD A TODO EL DOCUEMENTO */
+
+header{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 700px;
+	color: black;
+
+	text-align: center;
+}
+
+header a:link:fist-child:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+header a:fist-child:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+header a:first-child img{
+
+	width: 350px;
+	height: 350px;
+	margin-top: 25px;
+	text-align: center;
+}

@@ -1,0 +1,67 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>M e n ú</title>
+	<meta name="viewport" content="width=device-witdh, initial-scale= 1">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+</head>
+
+<body>
+
+	<header>
+
+		<a href="Menu.html">
+			<img src="logo.svg" />
+
+		</a>
+
+
+		<nav>
+
+			<ul>
+				<li><i class="ion-ios-home"></i> Home </a>
+				</li>
+				<li><i class="ion-plane"></i> Viaje </a>
+				</li>
+				<li><i class="ion-android-color-palette"></i> Cultura </a>
+				</li>
+				<li><i class="ion-android-restaurant"></i> Gastronomía </a>
+				</li>
+				<li><i class="ion-android-walk"></i> Rutas </a>
+				</li>
+			</ul>
+		</nav>
+
+
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#">About</a>
+			<a href="#">Services</a>
+			<a href="#">Clients</a>
+			<a href="#">Contact</a>
+		</div>
+
+		<div id="main">
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+		</div>
+
+	</header>
+
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+			document.getElementById("main").style.marginLeft = "250px";
+			document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+			document.getElementById("main").style.marginLeft = "0";
+			document.body.style.backgroundColor = "pink";
+		}
+	</script>
+</body>
+
+</html>
